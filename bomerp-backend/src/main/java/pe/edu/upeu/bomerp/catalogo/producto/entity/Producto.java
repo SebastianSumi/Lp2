@@ -1,4 +1,4 @@
-package pe.edu.upeu.bomerp.catalogo.categoria.entity;
+package pe.edu.upeu.bomerp.catalogo.producto.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -9,21 +9,25 @@ import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import java.math.BigDecimal;
 
 @Entity
-@Table(name = "CATEGORIAS", schema = "BOM_CATALOGO")
+@Table(name = "PRODUCTOS", schema = "BOM_CATALOGO")
 @Getter
 @Setter
 @NoArgsConstructor
-public class Categoria {
+public class Producto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
     private Long id;
 
-    @Column(name = "NOMBRE", nullable = false, unique = true, length = 80)
+    @Column(name = "NOMBRE", nullable = false, length = 120)
     private String nombre;
 
-    @Column(name = "DESCRIPCION", length = 200)
-    private String descripcion;
+    @Column(name = "PRECIO", nullable = false, precision = 10, scale = 2)
+    private BigDecimal precio;
+
+    @Column(name = "STOCK", nullable = false)
+    private Integer stock;
 }
