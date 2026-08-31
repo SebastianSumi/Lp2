@@ -1,0 +1,1699 @@
+2026-08-17 17:12:25.714 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15832 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-17 17:12:25.714 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-17 17:12:25.715 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-17 17:12:25.868 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-17 17:12:25.883 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2026-08-17 17:12:25.955 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-17 17:12:25.956 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-17 17:12:25.957 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-17 17:12:25.974 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 258 ms
+2026-08-17 17:12:25.995 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-17 17:12:26.016 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-17 17:12:26.034 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-17 17:12:26.035 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-17 17:12:26.097 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@73e0b9d2
+2026-08-17 17:12:26.098 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-17 17:12:26.106 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-17 17:12:26.106 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-17 17:12:26.140 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-17 17:12:26.237 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:12:26.504 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-17 17:12:26.521 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-17 17:12:26.533 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-17 17:12:26.536 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-17 17:12:26.538 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 0.928 seconds (process running for 568.337)
+2026-08-17 17:12:26.539 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-17 17:12:26.539 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-17 17:12:26.540 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-17 17:14:10.736 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-17 17:14:10.745 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-17 17:14:10.750 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:14:10.750 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-08-17 17:14:10.780 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-08-17 17:14:25.683 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 8208 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-17 17:14:25.685 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-17 17:14:25.686 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-17 17:14:25.722 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-17 17:14:25.732 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-17 17:14:25.732 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-17 17:14:26.585 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-17 17:14:26.638 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2026-08-17 17:14:27.163 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-17 17:14:27.179 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-17 17:14:27.180 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-17 17:14:27.228 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1495 ms
+2026-08-17 17:14:27.340 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-17 17:14:27.598 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-17 17:14:27.672 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-17 17:14:28.205 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-17 17:14:28.244 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-17 17:14:28.616 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7a2a0fdb
+2026-08-17 17:14:28.618 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-17 17:14:28.864 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-17 17:14:28.871 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-17 17:14:29.685 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-17 17:14:29.890 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:14:29.962 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-17 17:14:30.601 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-17 17:14:30.700 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-17 17:14:30.766 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-17 17:14:30.774 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-17 17:14:30.781 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 5.611 seconds (process running for 6.02)
+2026-08-17 17:14:30.788 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-17 17:14:30.788 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-17 17:14:37.309 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-17 17:14:37.309 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-17 17:14:37.311 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-17 17:14:46.186 [1372aca9-b524-4293-bc59-81fca0c1886d] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 401 ms
+2026-08-17 17:27:53.729 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (2 additions, 0 deletions, 3 modifications)
+2026-08-17 17:27:53.741 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-17 17:27:53.754 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-17 17:27:53.759 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:27:53.761 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-17 17:27:53.794 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-17 17:27:53.883 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 8208 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-17 17:27:53.883 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-17 17:27:53.884 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-17 17:27:54.076 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-17 17:27:54.090 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2026-08-17 17:27:54.183 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-17 17:27:54.184 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-17 17:27:54.185 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-17 17:27:54.201 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 316 ms
+2026-08-17 17:27:54.231 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-17 17:27:54.258 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-17 17:27:54.293 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-17 17:27:54.295 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-17 17:27:54.368 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@635d6591
+2026-08-17 17:27:54.369 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-17 17:27:54.376 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-17 17:27:54.376 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-17 17:27:54.419 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-17 17:27:54.517 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:27:54.729 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-17 17:27:54.759 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-17 17:27:54.774 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-17 17:27:54.777 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-17 17:27:54.778 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 0.928 seconds (process running for 810.017)
+2026-08-17 17:27:54.780 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-17 17:27:54.780 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-17 17:27:54.781 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-17 17:32:05.377 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 4 class path changes (1 addition, 0 deletions, 3 modifications)
+2026-08-17 17:32:05.380 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-17 17:32:05.386 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-17 17:32:05.390 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:32:05.392 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-17 17:32:05.429 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-17 17:32:05.529 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 8208 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-17 17:32:05.529 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-17 17:32:05.529 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-17 17:32:05.700 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-17 17:32:05.713 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2026-08-17 17:32:05.814 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-17 17:32:05.815 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-17 17:32:05.816 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-17 17:32:05.831 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 300 ms
+2026-08-17 17:32:05.859 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-17 17:32:05.883 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-17 17:32:05.907 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-17 17:32:05.908 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-17 17:32:05.959 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@47ee342a
+2026-08-17 17:32:05.959 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-17 17:32:05.968 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-17 17:32:05.968 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-17 17:32:06.032 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-17 17:32:06.129 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-17 17:32:06.449 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-17 17:32:06.485 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-17 17:32:06.513 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-17 17:32:06.517 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-17 17:32:06.517 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.021 seconds (process running for 1061.758)
+2026-08-17 17:32:06.522 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-17 17:32:06.522 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-17 17:32:06.523 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-17 17:32:08.469 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-17 17:32:08.469 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-17 17:32:08.471 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-17 17:32:08.746 [694a068b-42b8-41c0-8cef-79a1852972fd] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 175 ms
+2026-08-24 14:40:00.228 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:40:00.230 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:40:00.232 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:40:00.277 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 14:40:00.277 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 14:40:00.277 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 14:40:01.277 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:40:01.333 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:40:01.902 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:40:01.918 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:40:01.919 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:40:01.972 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1695 ms
+2026-08-24 14:40:02.082 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:40:02.173 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 14:40:04.836 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:40:05.052 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 14:40:06.182 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:40:06.305 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 14:40:07.099 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@54a76301
+2026-08-24 14:40:07.104 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 14:40:07.610 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:40:07.622 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:40:09.355 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:40:09.707 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:40:09.900 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 14:40:11.398 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:40:11.596 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:40:11.731 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:40:11.765 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:40:11.775 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 12.107 seconds (process running for 12.535)
+2026-08-24 14:40:11.800 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:40:11.802 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:43:18.823 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-08-24 14:43:18.829 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 14:43:18.839 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 14:43:18.843 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:43:18.847 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 14:43:18.879 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 14:43:19.001 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:43:19.002 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:43:19.002 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:43:19.198 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:43:19.213 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:43:19.296 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:43:19.297 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:43:19.298 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:43:19.316 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 312 ms
+2026-08-24 14:43:19.342 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:43:19.585 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:43:19.612 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:43:19.614 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-24 14:43:19.667 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@a7ff575
+2026-08-24 14:43:19.668 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-24 14:43:19.675 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:43:19.675 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:43:19.713 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:43:19.785 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:43:19.969 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:43:19.983 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:43:20.000 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:43:20.003 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:43:20.004 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.043 seconds (process running for 200.758)
+2026-08-24 14:43:20.005 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:43:20.005 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:43:20.006 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 14:43:33.578 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2026-08-24 14:43:33.581 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 14:43:33.589 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 14:43:33.592 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:43:33.593 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-24 14:43:33.630 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-24 14:43:33.765 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:43:33.766 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:43:33.766 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:43:33.970 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:43:33.984 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:43:34.069 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:43:34.070 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:43:34.070 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:43:34.089 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 321 ms
+2026-08-24 14:43:34.113 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:43:34.371 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:43:34.391 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:43:34.392 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-24 14:43:34.444 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@46ac0d96
+2026-08-24 14:43:34.444 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-24 14:43:34.453 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:43:34.453 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:43:34.484 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:43:34.558 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:43:34.730 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:43:34.747 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:43:34.761 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:43:34.765 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:43:34.768 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.034 seconds (process running for 215.522)
+2026-08-24 14:43:34.769 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:43:34.770 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:43:34.770 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 14:45:18.019 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2026-08-24 14:45:18.022 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 14:45:18.028 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 14:45:18.030 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:45:18.031 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-08-24 14:45:18.109 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-08-24 14:45:18.202 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:45:18.202 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:45:18.202 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:45:18.349 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:45:18.364 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:45:18.439 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:45:18.439 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:45:18.440 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:45:18.457 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 253 ms
+2026-08-24 14:45:18.471 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:45:18.710 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:45:18.729 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:45:18.730 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-24 14:45:18.793 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@527b7f7f
+2026-08-24 14:45:18.794 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-24 14:45:18.802 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:45:18.802 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:45:18.837 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:45:18.923 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:45:19.083 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:45:19.097 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:45:19.112 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:45:19.114 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:45:19.116 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 0.939 seconds (process running for 319.87)
+2026-08-24 14:45:19.117 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:45:19.117 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:45:19.118 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 14:45:41.729 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 8 class path changes (2 additions, 0 deletions, 6 modifications)
+2026-08-24 14:45:41.730 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 14:45:41.736 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 14:45:41.739 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:45:41.740 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-08-24 14:45:41.781 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-08-24 14:45:41.890 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:45:41.890 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:45:41.890 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:45:42.058 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:45:42.071 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:45:42.142 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:45:42.143 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:45:42.143 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:45:42.160 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 268 ms
+2026-08-24 14:45:42.184 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:45:42.395 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:45:42.412 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:45:42.414 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-08-24 14:45:42.465 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@4ba9580b
+2026-08-24 14:45:42.465 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-08-24 14:45:42.473 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:45:42.473 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:45:42.508 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:45:42.576 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:45:42.608 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriaController' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\categoria\controller\CategoriaController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'categoriaServiceImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\categoria\service\CategoriaServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-08-24 14:45:42.610 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:45:42.610 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-08-24 14:45:42.644 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-08-24 14:45:42.646 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 14:45:42.652 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 14:45:42.669 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in pe.edu.upeu.bomerp.catalogo.categoria.service.CategoriaServiceImpl required a bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' in your configuration.
+
+2026-08-24 14:46:07.640 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 14484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:46:07.640 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:46:07.640 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:46:07.789 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:46:07.800 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:46:07.869 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:46:07.871 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:46:07.872 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:46:07.891 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 250 ms
+2026-08-24 14:46:07.914 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:46:08.098 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:46:08.125 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:46:08.127 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-08-24 14:46:08.175 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection oracle.jdbc.driver.T4CConnection@62895f61
+2026-08-24 14:46:08.175 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-08-24 14:46:08.181 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:46:08.182 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:46:08.215 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:46:08.292 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:46:08.333 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoriaController' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\categoria\controller\CategoriaController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'categoriaServiceImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\categoria\service\CategoriaServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-08-24 14:46:08.333 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:46:08.333 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-08-24 14:46:08.384 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-08-24 14:46:08.384 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 14:46:08.388 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 14:46:08.392 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in pe.edu.upeu.bomerp.catalogo.categoria.service.CategoriaServiceImpl required a bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pe.edu.upeu.bomerp.catalogo.categoria.mapper.CategoriaMapper' in your configuration.
+
+2026-08-24 14:47:01.158 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 5168 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:47:01.160 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:47:01.161 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:47:01.212 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 14:47:01.212 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 14:47:01.213 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 14:47:01.957 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:47:02.010 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:47:02.490 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:47:02.508 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:47:02.509 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:47:02.563 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1348 ms
+2026-08-24 14:47:02.666 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:47:02.753 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 14:47:03.934 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:47:04.001 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 14:47:04.537 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:47:04.576 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 14:47:05.000 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@45a3cb4b
+2026-08-24 14:47:05.002 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 14:47:05.252 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:47:05.257 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:47:06.081 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:47:06.237 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:47:06.314 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 14:47:06.973 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:47:07.041 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:47:07.113 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:47:07.123 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:47:07.129 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 6.507 seconds (process running for 6.905)
+2026-08-24 14:47:07.136 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:47:07.137 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:47:09.420 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 14:47:09.421 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 14:47:09.423 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-24 14:47:10.078 [a323eb92-272f-4907-84fa-b0c905fb4be9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 238 ms
+2026-08-24 14:51:04.308 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-08-24 14:51:04.320 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 14:51:04.331 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 14:51:04.338 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:51:04.342 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 14:51:04.388 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 14:51:04.557 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 5168 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:51:04.557 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:51:04.557 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:51:04.968 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:51:04.994 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:51:05.204 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:51:05.204 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:51:05.204 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:51:05.238 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 678 ms
+2026-08-24 14:51:05.284 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:51:05.783 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:51:05.868 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:51:05.882 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-24 14:51:05.968 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@57488ddb
+2026-08-24 14:51:05.969 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-24 14:51:05.977 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:51:05.977 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:51:06.071 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:51:06.144 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:51:06.235 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productoController' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\controller\ProductoController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productoServiceImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\service\ProductoServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-08-24 14:51:06.235 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:51:06.235 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-24 14:51:06.297 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-24 14:51:06.299 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 14:51:06.303 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 14:51:06.326 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl required a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' in your configuration.
+
+2026-08-24 14:51:36.265 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16080 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:51:36.268 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:51:36.268 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:51:36.322 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 14:51:36.322 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 14:51:36.322 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 14:51:37.094 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:51:37.154 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:51:37.656 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:51:37.677 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:51:37.679 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:51:37.727 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1404 ms
+2026-08-24 14:51:37.827 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:51:37.911 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 14:51:39.130 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:51:39.208 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 14:51:39.663 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:51:39.701 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 14:51:40.074 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@751f10e5
+2026-08-24 14:51:40.075 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 14:51:40.330 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:51:40.337 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:51:41.181 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:51:41.318 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:51:41.387 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 14:51:41.526 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productoController' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\controller\ProductoController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productoServiceImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\service\ProductoServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-08-24 14:51:41.526 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:51:41.530 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 14:51:41.560 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 14:51:41.565 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 14:51:41.576 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 14:51:41.596 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl required a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' in your configuration.
+
+2026-08-24 14:52:14.036 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 14:52:14.038 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 14:52:14.039 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 14:52:14.109 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 14:52:14.109 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 14:52:14.109 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 14:52:14.876 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 14:52:14.923 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2026-08-24 14:52:15.403 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 14:52:15.414 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 14:52:15.414 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 14:52:15.452 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1343 ms
+2026-08-24 14:52:15.566 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 14:52:15.635 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 14:52:17.489 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 14:52:17.568 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 14:52:18.401 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 14:52:18.462 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 14:52:19.123 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@1c5e1ecd
+2026-08-24 14:52:19.129 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 14:52:19.594 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 14:52:19.608 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 14:52:20.916 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 14:52:21.123 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 14:52:21.263 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 14:52:22.593 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 14:52:22.695 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 14:52:22.842 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 14:52:22.877 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 14:52:22.889 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 9.332 seconds (process running for 9.756)
+2026-08-24 14:52:22.907 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 14:52:22.907 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 14:52:36.834 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 14:52:36.834 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 14:52:36.834 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-24 14:52:37.715 [51fa0163-aa3e-41ef-b1ad-201f3f959215] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 588 ms
+2026-08-24 15:03:05.129 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-08-24 15:03:05.280 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 15:03:05.349 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 15:03:05.399 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:03:05.432 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 15:03:05.553 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 15:03:05.873 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:03:05.873 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:03:05.873 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:03:06.127 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:03:06.142 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2026-08-24 15:03:06.253 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:03:06.254 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:03:06.255 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:03:06.274 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 399 ms
+2026-08-24 15:03:06.308 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 15:03:06.788 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 15:03:06.824 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 15:03:06.826 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-24 15:03:06.981 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@3a20995d
+2026-08-24 15:03:06.982 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-24 15:03:06.994 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 15:03:06.994 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 15:03:07.036 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 15:03:07.205 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:03:07.260 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productoController' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\controller\ProductoController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'productoServiceImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\service\ProductoServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 1: No qualifying bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2026-08-24 15:03:07.260 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:03:07.261 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-24 15:03:07.266 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-24 15:03:07.268 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 15:03:07.272 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 15:03:07.291 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 1 of constructor in pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl required a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapper' in your configuration.
+
+2026-08-24 15:05:49.066 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:05:49.067 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:05:49.067 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:05:49.308 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:05:49.311 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2026-08-24 15:05:49.407 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:05:49.408 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:05:49.409 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:05:49.427 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 358 ms
+2026-08-24 15:05:49.489 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+2026-08-24 15:05:49.491 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 15:05:49.494 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 15:05:49.497 [] ERROR o.s.boot.SpringApplication - Application run failed
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+	at org.springframework.util.Assert.notEmpty(Assert.java:419)
+	at org.springframework.modulith.core.ApplicationModules.<init>(ApplicationModules.java:137)
+	at org.springframework.modulith.core.ApplicationModules.<init>(ApplicationModules.java:96)
+	at org.springframework.modulith.core.ApplicationModules.lambda$of$20(ApplicationModules.java:699)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:696)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:237)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:219)
+	at org.springframework.modulith.runtime.autoconfigure.SpringModulithRuntimeAutoConfiguration$ApplicationModulesBootstrap.initializeApplicationModules(SpringModulithRuntimeAutoConfiguration.java:238)
+	at org.springframework.modulith.runtime.autoconfigure.SpringModulithRuntimeAutoConfiguration$ApplicationModulesBootstrap.lambda$new$0(SpringModulithRuntimeAutoConfiguration.java:202)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 common frames omitted
+2026-08-24 15:05:52.785 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16484 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:05:52.785 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:05:52.786 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:05:52.968 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:05:52.982 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2026-08-24 15:05:53.054 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:05:53.055 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:05:53.055 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:05:53.069 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 282 ms
+2026-08-24 15:05:53.090 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 15:05:53.327 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 15:05:53.345 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 15:05:53.347 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-24 15:05:53.403 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@68edbe0c
+2026-08-24 15:05:53.404 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-24 15:05:53.410 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 15:05:53.411 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 15:05:53.445 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 15:05:53.514 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:05:53.705 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 15:05:53.722 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 15:05:53.738 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 15:05:53.741 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 15:05:53.744 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 0.988 seconds (process running for 820.611)
+2026-08-24 15:05:53.746 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 15:05:53.747 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 15:05:53.749 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 15:06:12.649 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 16184 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:06:12.651 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:06:12.652 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:06:12.706 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 15:06:12.707 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 15:06:12.707 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 15:06:13.675 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:06:13.732 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2026-08-24 15:06:14.265 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:06:14.280 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:06:14.280 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:06:14.327 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1619 ms
+2026-08-24 15:06:14.435 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 15:06:14.525 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 15:06:17.198 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 15:06:17.308 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 15:06:18.052 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 15:06:18.091 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 15:06:18.710 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@6779fb0
+2026-08-24 15:06:18.714 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 15:06:19.175 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 15:06:19.183 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 15:06:20.478 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 15:06:20.748 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:06:20.890 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 15:06:22.279 [] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2026-08-24 15:06:22.401 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 15:06:22.529 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-24 15:06:22.537 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:06:22.546 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 15:06:22.573 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 15:06:22.587 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 15:06:22.613 [] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-24 15:07:52.766 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 15:07:52.771 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 15:07:52.774 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:07:52.775 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-08-24 15:07:52.808 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-08-24 15:08:03.383 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 20160 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:08:03.386 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:08:03.387 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:08:03.431 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 15:08:03.431 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 15:08:03.432 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 15:08:04.207 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:08:04.264 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2026-08-24 15:08:04.724 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:08:04.737 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:08:04.738 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:08:04.777 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1345 ms
+2026-08-24 15:08:04.879 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 15:08:04.945 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 15:08:06.863 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 15:08:06.951 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 15:08:07.747 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 15:08:07.796 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 15:08:08.244 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7c25f4ad
+2026-08-24 15:08:08.249 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 15:08:08.680 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 15:08:08.690 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 15:08:10.066 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 15:08:10.311 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:08:10.490 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 15:08:11.835 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 15:08:11.983 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 15:08:12.154 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 15:08:12.175 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 15:08:12.184 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 9.367 seconds (process running for 9.81)
+2026-08-24 15:08:12.198 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 15:08:12.199 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 15:08:12.251 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 15:08:12.251 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 15:08:12.255 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2026-08-24 15:08:13.201 [8abc57d8-0c06-4447-ba7b-ea4b21fe29aa] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 457 ms
+2026-08-24 15:30:10.408 [3eab320b-caf0-4fae-ada5-5f63c6366116] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaResponse pe.edu.upeu.bomerp.catalogo.categoria.controller.CategoriaController.crear(pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaRequest)]
+2026-08-24 15:30:59.355 [f1414b57-a087-46df-9586-4e978bb4f663] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaResponse pe.edu.upeu.bomerp.catalogo.categoria.controller.CategoriaController.crear(pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaRequest)]
+2026-08-24 15:31:05.089 [6664b909-c35c-4cb8-a8aa-33de97f0ee5d] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaResponse pe.edu.upeu.bomerp.catalogo.categoria.controller.CategoriaController.crear(pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaRequest)]
+2026-08-24 15:31:11.485 [88b924b2-7bae-4842-b954-e6af0b3455cf] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaResponse pe.edu.upeu.bomerp.catalogo.categoria.controller.CategoriaController.crear(pe.edu.upeu.bomerp.catalogo.categoria.dto.CategoriaRequest)]
+2026-08-24 15:31:33.041 [3b77df72-30c6-4a4a-a707-e12e54d73699] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-08-24 15:31:40.420 [6dccb6cc-e3d4-4bc2-9b47-7faba24da201] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-08-24 15:34:45.668 [ff560422-688b-4bf8-b1ff-bbb603415cc3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PATCH' is not supported]
+2026-08-24 15:34:58.890 [15f983db-e659-4d92-a8f5-66e026ff4320] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-08-24 15:35:01.322 [028abfb9-3243-4fca-8cc2-2a77ab2ab2da] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2026-08-24 15:57:46.045 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 15:57:46.047 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 15:57:46.048 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 15:57:46.098 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 15:57:46.098 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 15:57:46.098 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 15:57:46.925 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 15:57:46.977 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43 ms. Found 2 JPA repository interfaces.
+2026-08-24 15:57:47.510 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 15:57:47.531 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 15:57:47.532 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 15:57:47.579 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1481 ms
+2026-08-24 15:57:47.700 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 15:57:47.786 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 15:57:49.051 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 15:57:49.116 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 15:57:49.623 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 15:57:49.655 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 15:57:50.024 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@45867f04
+2026-08-24 15:57:50.026 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 15:57:50.281 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 15:57:50.288 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 15:57:51.106 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 15:57:51.284 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 15:57:51.358 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 15:57:52.050 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 15:57:52.125 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 15:57:52.191 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 15:57:52.199 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 15:57:52.204 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 6.76 seconds (process running for 7.221)
+2026-08-24 15:57:52.209 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 15:57:52.209 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 15:58:01.864 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 15:58:01.864 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 15:58:01.864 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-24 15:58:02.736 [80325b89-2e35-4c3e-ad76-6a691c2e040e] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 543 ms
+2026-08-24 16:03:16.521 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 5 class path changes (0 additions, 0 deletions, 5 modifications)
+2026-08-24 16:03:16.526 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:03:16.538 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:03:16.544 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:03:16.549 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 16:03:16.584 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 16:03:16.701 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:03:16.701 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:03:16.701 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:03:16.964 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:03:16.979 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:03:17.073 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapperImpl] for bean with name 'productoMapperImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\mapper\ProductoMapperImpl.class]: problem with class file or dependent class
+2026-08-24 16:03:17.076 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 16:03:17.092 [] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.CannotLoadBeanClassException: Error loading class [pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapperImpl] for bean with name 'productoMapperImpl' defined in file [C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes\pe\edu\upeu\bomerp\catalogo\producto\mapper\ProductoMapperImpl.class]: problem with class file or dependent class
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:684)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:653)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getType(AbstractBeanFactory.java:733)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAnnotationOnBean(DefaultListableBeanFactory.java:811)
+	at org.springframework.boot.sql.init.dependency.AnnotationDependsOnDatabaseInitializationDetector.detect(AnnotationDependsOnDatabaseInitializationDetector.java:36)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.detectDependsOnInitializationBeanNames(DatabaseInitializationDependencyConfigurer.java:155)
+	at org.springframework.boot.sql.init.dependency.DatabaseInitializationDependencyConfigurer$DependsOnDatabaseInitializationPostProcessor.postProcessBeanFactory(DatabaseInitializationDependencyConfigurer.java:118)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:363)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:795)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:603)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:756)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:445)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1365)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1354)
+	at pe.edu.upeu.bomerp.BomerpBackendApplication.main(BomerpBackendApplication.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52)
+Caused by: java.lang.ClassFormatError: Duplicate method name "toEntity" with signature "(LProductoRequest;)Lpe.edu.upeu.bomerp.catalogo.producto.entity.Producto;" in class file pe/edu/upeu/bomerp/catalogo/producto/mapper/ProductoMapperImpl
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/java.net.URLClassLoader.defineClass(URLClassLoader.java:524)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:427)
+	at java.base/java.net.URLClassLoader$1.run(URLClassLoader.java:421)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:420)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.findClass(RestartClassLoader.java:138)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:120)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:536)
+	at java.base/java.lang.Class.forName(Class.java:515)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:308)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:489)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1638)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1564)
+	... 21 common frames omitted
+2026-08-24 16:06:09.078 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:06:09.078 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:06:09.078 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:06:09.451 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:06:09.487 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:06:09.866 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:06:09.871 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:06:09.872 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:06:09.914 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 836 ms
+2026-08-24 16:06:10.004 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:06:10.630 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:06:10.711 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:06:10.714 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-24 16:06:10.832 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@380e59a2
+2026-08-24 16:06:10.834 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-24 16:06:10.842 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:06:10.842 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:06:11.023 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:06:11.132 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:06:11.568 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:06:11.652 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:06:11.694 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:06:11.698 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:06:11.700 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 2.701 seconds (process running for 506.717)
+2026-08-24 16:06:11.702 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:06:11.702 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:06:11.704 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:06:29.335 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2026-08-24 16:06:29.338 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:06:29.345 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:06:29.348 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:06:29.349 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-24 16:06:29.371 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-24 16:06:29.471 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:06:29.471 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:06:29.472 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:06:29.643 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:06:29.656 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:06:29.732 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:06:29.733 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:06:29.733 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:06:29.751 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 277 ms
+2026-08-24 16:06:29.772 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:06:30.240 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:06:30.301 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:06:30.305 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-24 16:06:30.372 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@3a834b9d
+2026-08-24 16:06:30.373 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-24 16:06:30.380 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:06:30.381 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:06:30.465 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:06:30.537 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:06:30.846 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:06:30.861 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:06:30.900 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:06:30.903 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:06:30.905 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.461 seconds (process running for 525.922)
+2026-08-24 16:06:30.907 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:06:30.907 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:06:30.907 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:07:12.227 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:07:12.227 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:07:12.227 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-24 16:07:12.563 [f8b7a222-690a-466c-b6a9-9a7313b2a5d3] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 156 ms
+2026-08-24 16:07:34.548 [2504e7ae-fca5-4b1f-8e9c-5a4fe27868c9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): expected a value]
+2026-08-24 16:15:52.230 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-08-24 16:15:52.233 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:15:52.240 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:15:52.244 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:15:52.245 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-08-24 16:15:52.274 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-08-24 16:15:52.395 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:15:52.395 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:15:52.395 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:15:52.592 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:15:52.605 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:15:52.717 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:15:52.719 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:15:52.719 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:15:52.737 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 340 ms
+2026-08-24 16:15:52.764 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:15:53.014 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:15:53.040 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:15:53.042 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-24 16:15:53.093 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@4aaf1c42
+2026-08-24 16:15:53.094 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-24 16:15:53.103 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:15:53.103 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:15:53.140 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:15:53.212 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:15:53.431 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:15:53.456 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:15:53.471 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:15:53.475 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:15:53.477 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.124 seconds (process running for 1088.493)
+2026-08-24 16:15:53.480 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:15:53.480 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:15:53.482 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:16:54.004 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:16:54.004 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:16:54.008 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-08-24 16:16:54.233 [54b48ea6-c664-4054-b364-b273b07a412b] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 120 ms
+2026-08-24 16:23:55.516 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2026-08-24 16:23:55.520 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:23:55.525 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:23:55.527 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:23:55.528 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-08-24 16:23:55.554 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-08-24 16:23:55.647 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 15548 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:23:55.647 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:23:55.647 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:23:55.833 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:23:55.847 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:23:55.935 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:23:55.936 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:23:55.937 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:23:55.954 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 305 ms
+2026-08-24 16:23:55.988 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:23:56.224 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:23:56.246 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:23:56.247 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-08-24 16:23:56.305 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@2fdea431
+2026-08-24 16:23:56.306 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-08-24 16:23:56.313 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:23:56.313 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:23:56.347 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:23:56.416 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:23:56.638 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:23:56.667 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:23:56.688 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:23:56.691 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:23:56.693 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.073 seconds (process running for 1571.709)
+2026-08-24 16:23:56.694 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:23:56.694 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:23:56.694 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:24:16.886 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:24:16.887 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:24:16.887 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-24 16:24:16.900 [94def37f-70f6-46b9-80fc-d342ae585ecb] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `pe.edu.upeu.bomerp.catalogo.producto.dto.ProductoRequest` from Array value (token `JsonToken.START_ARRAY`)]
+2026-08-24 16:24:50.502 [1732ad2e-e0b4-4058-873c-5e9c1563059e] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `pe.edu.upeu.bomerp.catalogo.producto.dto.ProductoRequest` from Array value (token `JsonToken.START_ARRAY`)]
+2026-08-24 16:25:19.746 [] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+
+	at pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapperImpl.toEntity(ProductoMapperImpl.java:15)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl.crear(ProductoServiceImpl.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl$$SpringCGLIB$$0.crear(<generated>)
+	at pe.edu.upeu.bomerp.catalogo.producto.controller.ProductoController.crear(ProductoController.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at pe.edu.upeu.bomerp.filter.CorrelationIdFilter.doFilterInternal(CorrelationIdFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-24 16:25:55.109 [] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+
+	at pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapperImpl.toEntity(ProductoMapperImpl.java:15)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl.crear(ProductoServiceImpl.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl$$SpringCGLIB$$0.crear(<generated>)
+	at pe.edu.upeu.bomerp.catalogo.producto.controller.ProductoController.crear(ProductoController.java:38)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at pe.edu.upeu.bomerp.filter.CorrelationIdFilter.doFilterInternal(CorrelationIdFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-24 16:31:49.995 [6cb43014-4f6d-48dd-9e17-c2eefc457a70] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<pe.edu.upeu.bomerp.catalogo.producto.dto.ProductoResponse> pe.edu.upeu.bomerp.catalogo.producto.controller.ProductoController.actualizar(java.lang.Long,pe.edu.upeu.bomerp.catalogo.producto.dto.ProductoRequest): [Field error in object 'productoRequest' on field 'categoriaId': rejected value [null]; codes [NotNull.productoRequest.categoriaId,NotNull.categoriaId,NotNull.java.lang.Long,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [productoRequest.categoriaId,categoriaId]; arguments []; default message [categoriaId]]; default message [no debe ser nulo]] ]
+2026-08-24 16:38:44.417 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 424 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:38:44.420 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:38:44.420 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:38:44.474 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 16:38:44.475 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 16:38:44.475 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 16:38:45.378 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:38:45.434 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:38:45.999 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:38:46.022 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:38:46.023 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:38:46.074 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1599 ms
+2026-08-24 16:38:46.192 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:38:46.261 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 16:38:48.707 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:38:48.785 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 16:38:49.554 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:38:49.628 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 16:38:50.226 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@31585f03
+2026-08-24 16:38:50.228 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 16:38:50.650 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:38:50.658 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:38:51.982 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:38:52.250 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:38:52.413 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 16:38:53.712 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:38:53.907 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:38:54.030 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:38:54.058 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:38:54.067 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 10.202 seconds (process running for 10.651)
+2026-08-24 16:38:54.076 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:38:54.076 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:40:20.251 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:40:20.252 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:40:20.258 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2026-08-24 16:40:21.097 [117112e3-d2db-48c7-8c4f-6471003100e9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 548 ms
+2026-08-24 16:40:36.204 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-08-24 16:40:36.216 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:40:36.237 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:40:36.246 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:40:36.252 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-08-24 16:40:36.291 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-08-24 16:40:36.457 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 424 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:40:36.458 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:40:36.458 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:40:36.964 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:40:36.986 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:40:37.331 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:40:37.331 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:40:37.331 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:40:37.395 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 932 ms
+2026-08-24 16:40:37.464 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:40:38.042 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:40:38.133 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:40:38.136 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-08-24 16:40:38.219 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@7570e97
+2026-08-24 16:40:38.219 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-08-24 16:40:38.227 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:40:38.228 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:40:38.309 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:40:38.383 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:40:38.838 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:40:38.879 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:40:38.910 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:40:38.914 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:40:38.916 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 2.527 seconds (process running for 115.499)
+2026-08-24 16:40:38.918 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:40:38.918 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:40:38.920 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:40:38.978 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:40:38.978 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:40:38.981 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-08-24 16:40:39.153 [d0c10f12-786e-4332-8dd1-eedec10d287a] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 111 ms
+2026-08-24 16:43:52.308 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-08-24 16:43:52.311 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:43:52.317 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:43:52.321 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:43:52.323 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-08-24 16:43:52.372 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-08-24 16:43:52.519 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 424 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:43:52.519 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:43:52.519 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:43:52.724 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:43:52.741 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:43:52.862 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:43:52.864 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:43:52.864 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:43:52.882 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 361 ms
+2026-08-24 16:43:52.919 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:43:53.561 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:43:53.625 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:43:53.631 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-08-24 16:43:53.814 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@70fc0c71
+2026-08-24 16:43:53.816 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-08-24 16:43:53.849 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:43:53.850 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:43:53.982 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:43:54.189 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:43:54.880 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:43:54.945 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:43:54.981 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:43:54.988 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:43:54.992 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 2.504 seconds (process running for 311.575)
+2026-08-24 16:43:54.996 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:43:54.996 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:43:54.999 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:43:55.801 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:43:55.801 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:43:55.805 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-08-24 16:43:56.129 [78eb7cd6-3667-448d-83c9-0b430d26c4b7] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 186 ms
+2026-08-24 16:53:26.031 [] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+] with root cause
+java.lang.Error: Unresolved compilation problem: 
+	The type ProductoMapperImpl must implement the inherited abstract method ProductoMapper.toEntity(ProductoRequest, Categoria)
+
+	at pe.edu.upeu.bomerp.catalogo.producto.mapper.ProductoMapperImpl.toEntity(ProductoMapperImpl.java:15)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl.crear(ProductoServiceImpl.java:39)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:158)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:133)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:371)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:130)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:719)
+	at pe.edu.upeu.bomerp.catalogo.producto.service.ProductoServiceImpl$$SpringCGLIB$$0.crear(<generated>)
+	at pe.edu.upeu.bomerp.catalogo.producto.controller.ProductoController.crear(ProductoController.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:252)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:184)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:934)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:853)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:866)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1000)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:649)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:874)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:710)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:128)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at pe.edu.upeu.bomerp.filter.CorrelationIdFilter.doFilterInternal(CorrelationIdFilter.java:31)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:199)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:107)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:77)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:1272)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1801)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:946)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:480)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:57)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-24 16:56:48.129 [] INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 29 class path changes (0 additions, 29 deletions, 0 modifications)
+2026-08-24 16:56:48.132 [] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-24 16:56:48.136 [] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-08-24 16:56:48.139 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:56:48.140 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-08-24 16:56:48.174 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-08-24 16:57:01.611 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 424 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:57:01.614 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:57:01.614 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:57:01.987 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:57:01.990 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2026-08-24 16:57:02.159 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:57:02.163 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:57:02.164 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:57:02.186 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 570 ms
+2026-08-24 16:57:02.286 [] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+2026-08-24 16:57:02.287 [] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2026-08-24 16:57:02.292 [] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-24 16:57:02.299 [] ERROR o.s.boot.SpringApplication - Application run failed
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.IllegalArgumentException: No classes found in packages [pe.edu.upeu.bomerp]!
+	at org.springframework.util.Assert.notEmpty(Assert.java:419)
+	at org.springframework.modulith.core.ApplicationModules.<init>(ApplicationModules.java:137)
+	at org.springframework.modulith.core.ApplicationModules.<init>(ApplicationModules.java:96)
+	at org.springframework.modulith.core.ApplicationModules.lambda$of$20(ApplicationModules.java:699)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:696)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:237)
+	at org.springframework.modulith.core.ApplicationModules.of(ApplicationModules.java:219)
+	at org.springframework.modulith.runtime.autoconfigure.SpringModulithRuntimeAutoConfiguration$ApplicationModulesBootstrap.initializeApplicationModules(SpringModulithRuntimeAutoConfiguration.java:238)
+	at org.springframework.modulith.runtime.autoconfigure.SpringModulithRuntimeAutoConfiguration$ApplicationModulesBootstrap.lambda$new$0(SpringModulithRuntimeAutoConfiguration.java:202)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	... 3 common frames omitted
+2026-08-24 16:57:05.154 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 424 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:57:05.154 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:57:05.156 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:57:05.332 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:57:05.355 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:57:05.432 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:57:05.433 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:57:05.433 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:57:05.448 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 291 ms
+2026-08-24 16:57:05.469 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:57:05.715 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:57:05.741 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:57:05.742 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-08-24 16:57:05.792 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@48e2e4cd
+2026-08-24 16:57:05.793 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-08-24 16:57:05.801 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:57:05.802 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:57:05.838 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:57:05.905 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:57:06.110 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:57:06.138 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:57:06.155 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:57:06.158 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:57:06.159 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 1.023 seconds (process running for 1102.742)
+2026-08-24 16:57:06.160 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:57:06.160 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:57:06.161 [] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2026-08-24 16:57:50.558 [] INFO  p.e.u.b.BomerpBackendApplication - Starting BomerpBackendApplication using Java 21.0.12 with PID 9384 (C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend\target\classes started by DTI-Laboratorio in C:\Users\DTI-Laboratorio\Desktop\Lp2\bomerp-backend)
+2026-08-24 16:57:50.561 [] DEBUG p.e.u.b.BomerpBackendApplication - Running with Spring Boot v4.0.7, Spring v7.0.8
+2026-08-24 16:57:50.563 [] INFO  p.e.u.b.BomerpBackendApplication - The following 1 profile is active: "dev"
+2026-08-24 16:57:50.607 [] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\DTI-Laboratorio\.m2\repository\com\oracle\database\jdbc\ojdbc11\23.9.0.25.07\ojdbc11-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/DTI-Laboratorio/.m2/repository/com/oracle/database/jdbc/ojdbc11/23.9.0.25.07/oraclepki.jar
+2026-08-24 16:57:50.607 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-24 16:57:50.607 [] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-24 16:57:51.359 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-08-24 16:57:51.420 [] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2026-08-24 16:57:51.946 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-08-24 16:57:51.961 [] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-24 16:57:51.962 [] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.22]
+2026-08-24 16:57:52.013 [] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1403 ms
+2026-08-24 16:57:52.109 [] DEBUG p.e.u.b.filter.CorrelationIdFilter - Filter 'correlationIdFilter' configured for use
+2026-08-24 16:57:52.192 [] INFO  c.tngtech.archunit.core.PluginLoader - Detected Java version 21.0.12
+2026-08-24 16:57:53.454 [] INFO  org.hibernate.orm.jpa - HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-08-24 16:57:53.532 [] INFO  org.hibernate.orm.core - HHH000001: Hibernate ORM core version 7.2.19.Final
+2026-08-24 16:57:54.035 [] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-08-24 16:57:54.073 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-08-24 16:57:54.478 [] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@7d77b0c1
+2026-08-24 16:57:54.479 [] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-08-24 16:57:54.733 [] WARN  org.hibernate.orm.jdbc - HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-08-24 16:57:54.740 [] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521/FREEPDB1]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 23.26.2
+	Default catalog/schema: undefined/BOMERP_APP
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-08-24 16:57:55.587 [] INFO  org.hibernate.orm.core - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-08-24 16:57:55.749 [] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-08-24 16:57:55.829 [] INFO  o.s.d.j.r.q.QueryEnhancerFactories - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-08-24 16:57:56.547 [] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2026-08-24 16:57:56.616 [] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 3 endpoints beneath base path '/actuator'
+2026-08-24 16:57:56.680 [] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-08-24 16:57:56.689 [] INFO  o.s.s.config.TaskSchedulerRouter - No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2026-08-24 16:57:56.696 [] INFO  p.e.u.b.BomerpBackendApplication - Started BomerpBackendApplication in 6.685 seconds (process running for 7.11)
+2026-08-24 16:57:56.700 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-08-24 16:57:56.701 [] WARN  o.s.c.events.SpringDocAppInitializer - SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-08-24 16:58:02.729 [] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-24 16:58:02.733 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-24 16:58:02.737 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2026-08-24 16:58:03.633 [79d8705f-cb18-4539-80cd-77efb609c957] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 593 ms
