@@ -29,6 +29,16 @@ export const routes: Routes = [
         loadComponent: () =>
           import('./features/catalogo/producto/producto-list').then((m) => m.ProductoList),
       },
+            {
+        path: 'catalogo/productos/nuevo',
+        loadComponent: () =>
+          import('./features/catalogo/producto/producto-form').then((m) => m.ProductoForm),
+      },
+      {
+        path: 'catalogo/productos/:id/editar',
+        loadComponent: () =>
+          import('./features/catalogo/producto/producto-form').then((m) => m.ProductoForm),
+      },
     ],
   },
 ];

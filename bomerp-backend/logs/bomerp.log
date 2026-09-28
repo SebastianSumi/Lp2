@@ -274,3 +274,4 @@ Consider defining a bean of type 'pe.edu.upeu.bomerp.ventas.venta.mapper.VentaMa
 2026-09-28 14:34:18.483 [] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 2026-09-28 14:34:18.483 [] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
 2026-09-28 14:34:31.315 [b3057488-27c9-4665-8d01-c3dfdda21ceb] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 736 ms
+2026-09-28 15:22:46.279 [3432c1e5-dab2-401b-a50a-ea961ce8b901] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [pe.edu.upeu.bomerp.exception.ResourceNotFoundException: Categoria no encontrada: 48]

@@ -5,6 +5,7 @@ import { CategoriaService } from '../categoria/categoria-service';
 import { Categoria } from '../categoria/categoria.model';
 import { ProductoService } from './producto-service';
 import { Producto } from './producto.model';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-producto-list',
@@ -39,6 +40,29 @@ export class ProductoList implements OnInit {
         this.loading.set(false);
       },
       complete: () => this.loading.set(false),
+    });
+  }
+
+  filtrar(categoriaId: number): void {
+    this.categoriaFiltro.set(categoriaId || null);
+    this.cargar();
+  }
+
+  eliminar(id: number): void {
+    if (!confirm(`¿Está seguro de eliminar el producto ${id}?`)) {
+      return;
+    }
+
+    this.productoService.eliminar(id).subscribe({
+      next: () => this.cargar(),
+      error: (err: HttpErrorResponse) => {
+        if (err.status === 404) {
+          this.error.set('El producto ya no existe. Se recargó la lista.');
+          this.cargar();
+        } else {
+          this.error.set('No se pudo eliminar el producto.');
+        }
+      },
     });
   }
 }
