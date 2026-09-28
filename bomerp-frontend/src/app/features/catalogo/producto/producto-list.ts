@@ -1,0 +1,44 @@
+import { CurrencyPipe } from '@angular/common';
+import { Component, OnInit, inject, signal } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { CategoriaService } from '../categoria/categoria-service';
+import { Categoria } from '../categoria/categoria.model';
+import { ProductoService } from './producto-service';
+import { Producto } from './producto.model';
+
+@Component({
+  selector: 'app-producto-list',
+  imports: [RouterLink, CurrencyPipe],
+  templateUrl: './producto-list.html',
+})
+export class ProductoList implements OnInit {
+  private readonly productoService = inject(ProductoService);
+  private readonly categoriaService = inject(CategoriaService);
+
+  protected readonly productos = signal<Producto[]>([]);
+  protected readonly categorias = signal<Categoria[]>([]);
+  protected readonly categoriaFiltro = signal<number | null>(null);
+  protected readonly error = signal<string | null>(null);
+  protected readonly loading = signal(false);
+
+  ngOnInit(): void {
+    this.categoriaService.listar().subscribe({
+      next: (data) => this.categorias.set(data),
+      error: () => this.error.set('No se pudo cargar la lista de categorías.'),
+    });
+    this.cargar();
+  }
+
+  cargar(): void {
+    this.loading.set(true);
+    this.error.set(null);
+    this.productoService.listar(this.categoriaFiltro() ?? undefined).subscribe({
+      next: (data) => this.productos.set(data),
+      error: () => {
+        this.error.set('No se pudo cargar la lista de productos.');
+        this.loading.set(false);
+      },
+      complete: () => this.loading.set(false),
+    });
+  }
+}
